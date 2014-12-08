@@ -1,12 +1,9 @@
-# Ignore paths that contain user-generated content.
-/sites/*/files
-/sites/*/private
-/files/*
-/cache
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
 
-# ** Only works in OSs that support newer versions of fnmatch (Bash 4+)
-/sites/default/**/files
-/sites/default/**/private
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
 
 # Packages #
 ############
@@ -20,12 +17,10 @@
 *.tar
 *.zip
 *.tgz
-
 # Logs and databases #
 ######################
 *.log
 *.sql
-
 # OS generated files #
 ######################
 .DS_Store*
@@ -33,17 +28,15 @@ ehthumbs.db
 Icon?
 Thumbs.db
 ._*
-
 # Vim generated files #
 ######################
 *.un~
-
 # SASS #
 ##########
 .sass-cache
-
 # PHPEclipse config files #
 ##########################
 .buildpath
 .settings/
 .project
+
