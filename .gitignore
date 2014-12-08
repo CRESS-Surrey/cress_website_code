@@ -1,6 +1,3 @@
-#Ignore default folder 
-/sites/default
-
 # Ignore paths that contain user-generated content.
 /sites/*/files
 /sites/*/private
