@@ -1,1 +1,0 @@
-Cufon.replace('.common_box h3 ', { fontFamily:'Aeroportal', fontWeight: 500, hover: true});
