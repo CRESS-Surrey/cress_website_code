@@ -42,7 +42,7 @@ hr { border: solid #DDD; clear: both; margin: 10px 0 30px; height: 0; border-wid
 
 /* Responsive Images */
 
-img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; }
+img, img.scale-with-grid { outline: 0; max-width: 300px; height: auto; }
 
 /* Fonts */
 
@@ -81,7 +81,12 @@ letter-spacing: -2px; text-shadow: 0px 1px 0px #FFF; }
 
 #header #site-name a:hover { color: #3253ad; }
 
-#header #site-slogan { margin: 0; padding: 0; font-size: 24px; line-height: 28px; letter-spacing: -1px; }	
+#header #site-slogan {
+	font-size: 45px;
+    letter-spacing: 2px;
+    line-height: 42px;
+    margin: 0;
+    padding: 1px;}	
 
 /* Breadcrumb */
 
