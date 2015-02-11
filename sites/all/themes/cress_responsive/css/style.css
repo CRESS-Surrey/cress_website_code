@@ -148,7 +148,7 @@ color: #707070; text-shadow: white 1px 1px 0; background: #dddddd url(../images/
 
 th { padding:5px 15px; border:none; }
 
-td { padding:15px; border:none; }
+td { padding:0px; border:none; }
 
 table tr th, table tr th a, table tr th a:hover { font-weight: bold; }
 
