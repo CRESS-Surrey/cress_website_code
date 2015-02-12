@@ -572,3 +572,8 @@ select.mnav { width:100%; padding:5px;}
 @media only screen and (max-width: 767px) {
 #header-right ul.menu li, #header-top ul.menu li { display:block; text-align:left; border-bottom:1px solid #e3e3e3; border-right:none; padding:10px 0; }
 }
+
+/* Some hacks */
+.feed-icon{
+	display: none;
+}
