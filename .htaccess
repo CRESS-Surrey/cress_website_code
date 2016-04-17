@@ -149,3 +149,6 @@ DirectoryIndex index.php index.html index.htm
     </FilesMatch>
   </IfModule>
 </IfModule>
+
+#drozas: Disabling APC due to non-response issue
+php_flag apc.cache_by_default Off
