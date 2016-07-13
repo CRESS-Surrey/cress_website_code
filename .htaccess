@@ -7,6 +7,12 @@
   Order allow,deny
 </FilesMatch>
 
+##### @drozas: added to download NetLogo model files as files not as text on web pages
+<Files "*.nlogo">
+ForceType applicaton/octet-stream
+Header set Content-Disposition attachment
+</Files>
+
 # Don't show directory listings for URLs which map to a directory.
 Options -Indexes
 
@@ -147,3 +153,6 @@ DirectoryIndex index.php index.html index.htm
   # Disable content sniffing, since it's an attack vector.
   Header always set X-Content-Type-Options nosniff
 </IfModule>
+
+#drozas: Disabling APC due to non-response issue
+php_flag apc.cache_by_default Off
