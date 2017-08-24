@@ -217,9 +217,9 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'cress_website',
-      'username' => 'cress_website',
-      'password' => 'cress_website',
+      'database' => 'cwc',
+      'username' => 'cwc',
+      'password' => 'cwc',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
